@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.2);
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+li {
+  list-style-type: none;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+
+.btn {
+  background: none;
+  border: none;
+  outline: none;
+  border: 0.1rem solid #7d52de;
+  padding: 0.5rem 2rem;
+  border-radius: 0.4rem;
+  transition: all 0.2s;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+
+.btn:hover {
+  background-color: #7d52de;
+  color: #fff;
+  transform: scale(0.9);
+}
+
+/* ----------------- left------------------- */
+
+.left {
+  /* width: 100vw; */
+  display: grid;
+  margin-top: 2rem;
+  /* margin: 0 auto; */
+  grid-template-columns: auto auto;
+  space-items: center;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  /* gap: 3rem; */
+  padding: 0rem 0rem 0 15rem;
+}
+.heading {
+  margin: 1rem 0;
+  font-size: 5rem;
+  font-weight: 700;
+  /* color: #b3b7bf; */
+  font-family: "Lora", serif;
+  line-height: 5rem;
+}
+h5 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: #7d52de;
+}
+img {
+  /* width: 70rem; */
+}
+.btn:nth-child(1) {
+  /* border-radius: none !important; */
+  background-color: #7d52de;
+  color: #fff;
+  padding: ;
+}
+
+.btn:nth-child(2) {
+  border: none;
+  border-radius: none !important;
+  background-color: #f7f5fc;
+  color: #7d52de;
+  margin-left: 1rem;
+}
+
+.para {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+/* --------- middle ---- */
+.middle {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-evenly;
+  gap: 0.5rem;
+  align-items: center;
+  font-size: 1.6rem;
+  padding: 1rem 4rem;
+  box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
+  /* border-top: 0.1rem solid #f7f7f7; */
+  /* border-bottom: 0.1rem solid #f1f1f1; */
+}
+
+.right {
+  /* width: 100%; */
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: 25rem 20rem;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  /* flex-direction: column; */
+}
+
+.heading-secound {
+  font-size: 2.3rem;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+}
